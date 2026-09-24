@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ArrowDownRight, ArrowUpRight, Check, Github, Instagram, Mail, Menu, Sparkles, X } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, Check, Mail, Menu, Sparkles, X } from "lucide-react";
 
 const projects=[
  {no:"01",title:"Hyundai Sunset Road",type:"Digital Experience",desc:"A full digital showroom experience — cars, promotions, test drives, leads, and a polished mobile-first journey.",tags:["Next.js","Supabase","UX/UI"],accent:"lime",visual:"hyundai"},
@@ -101,7 +101,7 @@ export default function Home(){
    <div className="section-wrap">
     <div className="about-grid">
       <div data-reveal><p className="section-index">02 / ABOUT</p><h2 className="display about-title">Less noise.<br/><span>More signal.</span></h2></div>
-      <div data-reveal className="about-copy"><p className="about-lead">I care about the part between <i>“it works”</i> and <i>“damn, this feels good.”</i></p><p>I work across product direction, UI/UX, front-end engineering, and the tiny interactions that make a screen feel alive. No giant agency layers — just focused thinking, sharp craft, and code that holds up.</p><div className="facts"><div><b>04+</b><span>years building<br/>on the web</span></div><div><b>24/7</b><span>curious about<br/>what's next</span></div><div><b>1×</b><span>standard for<br/>the details</span></div></div><div className="social-row"><a href="https://github.com/Kimrayy" target="_blank" rel="noreferrer"><Github size={16}/> GitHub</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><Instagram size={16}/> Instagram</a><a href="mailto:hello@kimrayy.dev"><Mail size={16}/> Email</a></div></div>
+      <div data-reveal className="about-copy"><p className="about-lead">I care about the part between <i>“it works”</i> and <i>“damn, this feels good.”</i></p><p>I work across product direction, UI/UX, front-end engineering, and the tiny interactions that make a screen feel alive. No giant agency layers — just focused thinking, sharp craft, and code that holds up.</p><div className="facts"><div><b>04+</b><span>years building<br/>on the web</span></div><div><b>24/7</b><span>curious about<br/>what's next</span></div><div><b>1×</b><span>standard for<br/>the details</span></div></div><div className="social-row"><a href="https://github.com/Kimrayy" target="_blank" rel="noreferrer"><b className="social-mark">GH</b> GitHub</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><b className="social-mark">IG</b> Instagram</a><a href="mailto:hello@kimrayy.dev"><Mail size={16}/> Email</a></div></div>
     </div>
    </div>
   </section>
