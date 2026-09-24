@@ -1,0 +1,1 @@
+export default function Loading(){return <div style={{minHeight:"100vh",background:"#080808",color:"#c9ff3f",display:"grid",placeItems:"center",fontFamily:"Arial Black,Arial,sans-serif",fontSize:12,letterSpacing:".2em"}}>KIMRAYY<span style={{marginLeft:6}}>.</span></div>}
