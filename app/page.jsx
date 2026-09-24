@@ -108,7 +108,7 @@ export default function Home(){
 
   <section id="stack" className="stack-section">
    <div className="section-wrap">
-    <div className="section-head stack-head" data-reveal><div><p className="section-index">03 / THE STACK</p><h2 className="display">Tools I <span>trust.</span></h2></div><div className="stack-spark"><Sparkles size={18}/><span>Curiosity > comfort zone</span></div></div>
+    <div className="section-head stack-head" data-reveal><div><p className="section-index">03 / THE STACK</p><h2 className="display">Tools I <span>trust.</span></h2></div><div className="stack-spark"><Sparkles size={18}/><span>Curiosity &gt; comfort zone</span></div></div>
     <div className="skills-grid" data-reveal>{skills.map((skill,i)=><div className="skill-tile" key={skill}><span>{String(i+1).padStart(2,"0")}</span><b>{skill}</b><i>↗</i></div>)}</div>
     <div className="ticker"><div className="ticker-track">{[...skills,...skills].map((x,i)=><span key={i}>{x}<b>✦</b></span>)}</div></div>
    </div>
